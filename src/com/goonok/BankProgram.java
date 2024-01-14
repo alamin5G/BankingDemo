@@ -31,7 +31,9 @@ public class BankProgram {
     }
 
     private void processCommand(int cmd) {
-        if(cmd==0) quit();
+        if(cmd==0) {
+            quit();
+        }
         else if (cmd==1) {
             newAccount();
         } else if (cmd==2) {
